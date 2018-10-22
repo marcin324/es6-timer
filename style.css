@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+}
+
+body {
+	height: 100vh;
+	color: #BBBBBB;
+	background: #607D8B;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 8em;
+}
+
+.controls{
+	word-spacing: 3em;
+}
+
+.button {
+	color: #BBBBBB;
+	text-decoration: none;
+	font-size: 4em;
+}
+
+.stopwatch {
+	font-size: 6em;
+}
